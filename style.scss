@@ -1,0 +1,352 @@
+$pink: #FEA0C8;
+$aqua: #48D0D1;
+$accent: #FCF5E5;
+$light-grass: #D7EBCE;
+$forest: #AEBE89;
+$white: #ffffff;
+$maxwidth: 1140px;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    
+    font-weight: 500;
+}
+h2.title-h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: $aqua;
+
+}
+.page-light {
+    background-color: $white;
+}
+
+//.isolation { 
+//}
+
+.wrapper {
+    max-width: $maxwidth;
+    margin: 0 auto;
+    
+}
+.new {
+    max-width: $maxwidth;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+
+header {
+    padding-left: 170px;
+    padding-right: 175px;
+    
+}
+/*.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+
+.nav__top {
+    display: flex;
+    
+    list-style-type: none;
+    padding-left: 0;
+    &-item {
+        margin-left: 5px;
+    }
+    &-link {
+        color: $pink;
+        text-decoration: none;
+    }
+}
+img.icons {
+    margin-left: 20px;
+    margin-right: 3px;
+}
+.icon__search {
+    margin-right: 20px;
+}
+.search {
+    display: flex;
+    padding-left: 0;
+    margin-left: none;
+    justify-content: space-between;
+    padding-top: 15px;
+    color: $light-grass;
+}
+
+.nav__bottom {
+    display: flex;
+    max-width: $maxwidth;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $light-grass;
+    &-item {
+        margin-left: 5px;
+    }
+    &-link {
+        color: $aqua;
+        text-decoration: none;
+    }
+}
+.nav__top-link:hover {
+    font-weight: 500;
+}
+.nav__bottom-link:hover {
+    font-weight: 500;
+}
+.main {
+    max-width: $maxwidth;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $pink;
+    margin: auto;
+    
+    
+}
+
+.sale {
+    display: flex;
+    
+    padding-right: 50px;
+    align-items: center;
+    justify-content: normal;
+    color:$accent;
+    &-description {
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    &-title {
+        margin-top: -10px;
+    }
+}
+.l1:hover {
+    font-weight: 500;
+}
+.btnn {
+    background-color: $aqua;
+    color:$accent;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.btnn:hover {
+    background-color: $accent;
+    color: $aqua;
+    font-weight: 500;
+    text-decoration: none;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    position: relative;
+    padding-left: 50px;
+    
+}
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+    &-title {
+        text-align: center;
+        font-family: 'Montserrat';
+        padding-top: 10px;
+        color:$aqua;
+    }
+    &-price {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: $pink;
+    }
+}
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+a.btn__new {
+    
+    background-color: $aqua;
+    color:$accent;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+
+a.btn__new:hover {
+    text-decoration: none;
+    background-color: $accent;
+    color: $aqua;
+    font-weight: 500;
+    
+}
+.about-product:hover {
+    filter: drop-shadow(0 0 3px rgba(100, 0, 0, 0.5));
+}
+
+.footer__nav {
+    margin-top: 100px;
+    background-color: $accent;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    &-item {
+        color: $aqua;
+        
+    }
+    &-link {
+        text-decoration: none;
+        color: $aqua;
+    }
+    &-link:hover {
+        text-decoration: none;
+        color: $pink;
+    }
+}
+
+
+
+.alt-nav-button:hover .alt-link-pool {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-items {
+    list-style: none;
+    align-self: center;
+}
+.alt-nav {
+    display: none;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navbarTogglerDemo02 > form > button:hover {
+    background-color: $accent;
+}
+@media (max-width: 530px) {
+    h1.sale-title {
+        font-family: 'Montserrat';
+        font-size: 30px;
+    }
+    p.sale-description {
+        font-family: 'Montserrat';
+        font-size: 25px;
+    }
+    body > div > div.main > div.main-item.sale {
+        padding-right: 0px;
+    }
+}
+ @media (min-width: 1140px) {
+    .container {
+    width: $maxwidth;
+    }
+}
+
+@media (max-width: 765px) {
+    .logo {
+        display: none;
+    }
+}
+@media (max-width: 1315px) {
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+ @media (max-width: 1020px) {
+
+    .nav-items {
+        margin-top: -20px;
+    }
+    .link {
+        text-decoration: none;
+        color: $accent;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .link:hover {
+        text-decoration: none;
+        color: $accent;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .footer__nav {
+        font-size: 14px;
+    } 
+    .alt-nav-button {
+        background-image: url(../img/alt-nav.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-width: 200px;
+        width: 20vw;
+    }
+    .alt-nav {
+        display: block;
+
+    }
+    .alt-link-pool {
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        background-color: $pink;
+        min-width: 200px;
+        width: 20vw;
+        border: solid $aqua 1px;
+        z-index: 1;
+      }
+    .alt-link-pool > *{
+        margin: 0px;
+    }
+    .nav__top {
+        display: none;
+
+    }
+    .nav__bottom {
+        display: none;
+    }
+    .sale-item {
+        padding-left: 10px; 
+    }
+    
+} 

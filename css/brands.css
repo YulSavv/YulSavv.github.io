@@ -1,0 +1,145 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.brand {
+  color: #48D0D1;
+}
+
+.brand:hover {
+  color: #48D0D1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav__top {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav__top-item {
+  margin-left: 5px;
+}
+.nav__top-link {
+  color: #FEA0C8;
+  text-decoration: none;
+}
+
+img.icons {
+  margin-left: 20px;
+  margin-right: 3px;
+}
+
+.icon__search {
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  padding-left: 0;
+  margin-left: none;
+  justify-content: space-between;
+  color: #D7EBCE;
+}
+
+.nav__bottom {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D7EBCE;
+}
+.nav__bottom-item {
+  margin-left: 5px;
+}
+.nav__bottom-link {
+  color: #48D0D1;
+  text-decoration: none;
+}
+
+.nav__top-link:hover {
+  font-weight: 500;
+  text-decoration: none;
+  color: #48D0D1;
+}
+
+.nav__bottom-link:hover {
+  font-weight: 500;
+  text-decoration: none;
+  color: #48D0D1;
+}
+
+h2 {
+  color: #FEA0C8;
+}
+
+p {
+  color: #FEA0C8;
+}
+
+.footer__nav {
+  margin-top: 100px;
+  background-color: #FCF5E5;
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__nav-item {
+  color: #48D0D1;
+  font-size: 24px;
+}
+.footer__nav-link {
+  text-decoration: none;
+  color: #48D0D1;
+}
+.footer__nav-link:hover {
+  text-decoration: none;
+  color: #FEA0C8;
+}
+
+@media (max-width: 1020px) {
+  a.footer__nav-link {
+    font-size: 14px;
+  }
+}
+/*
+a {
+    text-decoration: none;
+    color:$aqua;
+}
+
+a:hover {
+    text-decoration: none;
+}
+*//*# sourceMappingURL=brands.css.map */
