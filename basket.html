@@ -4,118 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basket</title>
+    <title>Интернет-магазин корейской косметики "Knatural"</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/basket.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <div class="wrapper">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white" >
-            
-            <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" style="height: 50%; width: 50%;" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                  <img src="img/icon_like.svg" alt="" width="20px">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #FEA0C8; font-family: 'Montserrat';"><span class="l1">Избранное</span></a>
-                  </li>
-                  <img src="img/icon_profile.svg" alt="" width="20px">
-                <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #FEA0C8; font-family: 'Montserrat';"><span class="l1">Профиль</span></a>
-                </li>
-                <img src="img/icon_buy.svg" alt="" width="20px">
-                <li class="nav-item">
-                    <a class="nav-link" href="basket.html" style="color: #FEA0C8; font-family: 'Montserrat';"><span class="l1">Корзина</span></a>
-                  </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Поиск">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #D7EBCE"><img src="img/icon_search.svg" alt="" ></button>
-              </form>
-            </div>
-            
-          </nav>
-          <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="brands.html" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Бренды</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Основной уход</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Очищене</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Отшелушивание</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Тонизирование</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Увлажнение</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Для кожи вокруг глаз</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Направленный уход</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Защита от солнца</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Маски</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Специальный уход</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Против черных точек</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Пигментация</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Акне и воспаления</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Антивозрастные средства</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Против отёчности</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Сужение пор</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Сухость и шелушения</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Макияж</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Основы под макияж</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Тональные средства</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Пудры и румяна</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Средства для губ</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Средства для глаз и бровей</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Аксессуары для макияжа</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Волосы</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Шампуни</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Кондиционеры</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Средства для волос кожи головы</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Уход за волосами</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Аксессуары для волос</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Тело</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Очищение</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Увлажнение</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Средства для рук</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Средства для ног</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Гигиена</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:#48D0D1; font-family: 'Montserrat';">Спецпредложения</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Мини-форматы</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Аксессуары</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Подарочные наборы</a>
-                      <a class="dropdown-item" href="#" style="color:#48D0D1; font-family: 'Montserrat';">Подарочные сертификаты</a>
-                    </div>
-                  </li>
-              </ul>
-              
-    </header>
-    <div class="dropdown-divider"></div>
-    </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+      <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" style="height: 50%; width: 50%;"
+          class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <img src="img/icon_like.svg" alt="" width="20px">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #FEA0C8; font-family: 'Montserrat';"><span
+                class="l1">Избранное</span></a>
+          </li>
+          <img src="img/icon_profile.svg" alt="" width="20px">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #FEA0C8; font-family: 'Montserrat';"><span
+                class="l1">Профиль</span></a>
+          </li>
+          <img src="img/icon_buy.svg" alt="" width="20px">
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html" style="color: #FEA0C8; font-family: 'Montserrat';"><span
+                class="l1">Корзина</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Поиск">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+        </form>
+      </div>
+
+    </nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="brands.html" style="color:#48D0D1; font-family: 'Montserrat';"><span
+            class="l1">Бренды</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Основной
+            уход</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Специальный уход</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Макияж</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Волосы</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Тело</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="" style="color:#48D0D1; font-family: 'Montserrat';"><span class="l1">Спецпредложения</span></a>
+      </li>
+    </ul>
+
+  </header>
+  <div class="dropdown-divider"></div>
 
 
     <div class="shopping-cart">
@@ -132,22 +90,20 @@
           </div>
    
           <div class="image">
-            <img src="img/mediumhair.jpg" alt="" width="100px" height="100px" style="margin-top: -10px;"/>
+            <img src="img/mediumhair.jpg" alt="" width="100px" height="100px" style="margin-top: 10px;"/>
           </div>
    
-          <div class="description">
+          <div class="description" style="margin-left: 10px;">
             <span>Кондиционер для волос</span>
             <span>OUAI</span>
             <span style="margin-top: -1px;">100 ml</span>
           </div>
    
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button">
-              <img src="plus.svg" alt="" />
+          <div class="quantity" style="margin-left: 10px;">
+            <button class="plus-btn" type="button" name="button" style="color:#FEA0C8;">-
             </button>
             <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">
-              <img src="minus.svg" alt="" />
+            <button class="minus-btn" type="button" name="button" style="color:#FEA0C8;">+
             </button>
           </div>
    
@@ -162,22 +118,22 @@
           </div>
    
           <div class="image">
-            <img src="img/toner.jpg" alt="" width="100px" height="100px" style="margin-top: -10px;"/>
+            <img src="img/toner.jpg" alt="" width="100px" height="100px" style="margin-top: 10px;"/>
           </div>
    
-          <div class="description">
+          <div class="description" style="margin-left: 10px;">
             <span>Увляжняющий тонер</span>
             <span>IsNTree</span>
             <span style="margin-top: -2px;">200 ml</span>
           </div>
    
           <div class="quantity">
-            <button class="plus-btn" type="button" name="button">
-              <img src="plus.svg" alt="" />
+            <button class="plus-btn" type="button" name="button" style="color:#FEA0C8;">-
+              
             </button>
             <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">
-              <img src="minus.svg" alt="" />
+            <button class="minus-btn" type="button" name="button" style="color:#FEA0C8;">+
+              
             </button>
           </div>
    
@@ -192,22 +148,22 @@
           </div>
    
           <div class="image">
-            <img src="img/lipbalm.jpg" alt="" width="100px" height="100px" style="margin-top: -5px;" />
+            <img src="img/lipbalm.jpg" alt="" width="100px" height="100px" style="margin-top: 10px;" />
           </div>
    
-          <div class="description">
+          <div class="description" style="margin-left: 10px;">
             <span>Бальзам для губ</span>
             <span>Noname</span>
             <span>5 ml</span>
           </div>
    
           <div class="quantity">
-            <button class="plus-btn" type="button" name="button">-
-              <img src="plus.svg" alt="" />
+            <button class="plus-btn" type="button" name="button" style="color:#FEA0C8;">-
+              
             </button>
             <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">+
-              <img src="minus.svg" alt="" />
+            <button class="minus-btn" type="button" name="button" style="color:#FEA0C8;">+
+              
             </button>
           </div>
    
@@ -218,6 +174,19 @@
         </div>
       </div>
 
-      
+
+      <div class="wrapper">
+        <footer>
+          <ul class="footer__nav">
+            <li class="footer__nav-item"><a class="footer__nav-link" href="about.html" style="font-size: 14px;">О компании</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="" style="font-size: 14px;">Помощь</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="" style="font-size: 14px;">Социальные сети</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="" style="font-size: 14px;">Контакты</a></li>
+          </ul>
+        </footer>
+      </div>
+
+      <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
